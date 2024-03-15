@@ -40,6 +40,87 @@
 
         </div>
     </fieldset>
+
+    <fieldset>
+        <legend>Adress Information:</legend>
+        <div>
+            <label for="stadress">Street Adress:</label>
+            <textarea name="stadress" id="stadress" cols="20" rows="2"></textarea>
+        </div>
+        <div>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="Moldova">Republic of Moldova</option>
+                <option value="Romania">Romania</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+                <option value="Iran">Iran</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+        </div>
+        <div>
+            <label for="postalcode">Postal Code:</label>
+            <input type="number" id="postalcode" name="postalcode">
+        </div>
+    </fieldset>
+     
+    <fieldset>
+        <legend>Preferences</legend>
+        <div>
+            <label for="contactmethod">Preffered Contact Method:</label>
+            <input type="checkbox"  name="contactmethod1" value="Email">Email<br>
+            <input type="checkbox"  name="contactmethod2" value="Phone">Phone<br>
+            <input type="checkbox"  name="contactmethod3" value="Postal">Postal Mail<br>
+        </div>
+        <div>
+            <label for="favcolor">Favorite color:</label>
+            <input type="color">
+        </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Additional Details</legend>
+        <div><label for="findingmethod">How did you hear about us:</label>
+            <select name="findingmethod" id="findingmethod">
+                <option value="fmethod1">Friends</option>
+                <option value="fmethod2">Internet</option>
+                <option value="method1">Ads</option>
+
+            </select>
+        </div>
+        <div>
+            <label for="feedback">Feedback:</label>
+            <textarea name="" id="" cols="20" rows="3"></textarea>
+        </div>
+                
+        </fieldset>
+
+        <fieldset>
+            <legend>Profile:</legend>
+            <div>
+
+                <label for="file">Upload a profile pic:</label>
+                <input type="file" type="file" name="file" accept="image/png">
+            </div>
+
+            <div>
+                <label for="website">Website URL:</label>
+                <input type="url" id="website" name="website" placeholder="Enter your website URL" required>
+            </div>
+            <div>
+                <label for="experience">Experience Level with HTML:</label>
+                <input type="range" id="experience" name="experience" min="1" max="10" value="5" step="1" oninput="displayValue.value = experience.value">
+                <br>
+                <span id="displayValue">5/10</span>
+            </div>
+        </fieldset>
+
+        <input type="submit">
+        <input type="Reset">
         
     </form>
 </body>
