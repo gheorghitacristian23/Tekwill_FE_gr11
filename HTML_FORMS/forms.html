@@ -5,6 +5,8 @@
 </head>
 <body>
     <form>
+        <fieldset>
+        <legend>Basic User Information</legend>
         <div>
             <label for="fullname">Full Name:</label>
             <input type="text" id="fullname" name="fullname">
@@ -21,6 +23,24 @@
             <input type="password" id="confirmpassword" name="confirmpassword">
 
         </div>
+        
+        <div>
+            <label for="gender">Gender:  </label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label>Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label>Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label>Other</label>
+            </div>
+
+        <div>
+            <label for="bdate">Date of birth: </label>
+            <input type="date" id="bdate" name="bdate">
+
+        </div>
+    </fieldset>
+        
     </form>
 </body>
 
