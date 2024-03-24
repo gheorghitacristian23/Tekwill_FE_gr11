@@ -1,0 +1,12 @@
+#title-magazine {
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+p {
+    color: rgb(126, 28, 126);
+}
+.the-three-elements {
+    color: darkgreen;
+}
