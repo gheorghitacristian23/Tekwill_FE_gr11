@@ -1,16 +1,23 @@
 <!DOCTYPE html>
  <html lang="en">
  <head>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .send-button {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Programming Web-Blog
  </title>
- <link rel="stylesheet" href="style.css" type="text/css">
+     
+<body style="background-color: gray;">
+
     
- <body>
-    style="background-color: gray;">
-    
-    <h1>&#128216;The code Magazine</h1>
+    <h1 id="title-magazine">&#128216;The code Magazine</h1>
         <p>The Basic Language of the Web: HTML</p>
         <img src="img/laura-jones.jpg"alt='laura-jones' width="40">
         <p>Posted by <b>Laura Jones</b> on Monday, June 21st 2027</p>
@@ -20,7 +27,7 @@
     <h2>What is HTML?</h2>
         <p>HTML stands for <b>H</b>yperText <b>M</b>arkup <b>L</b>anguage. It's a markup language that web developers use to structure and describe the content of a webpage (not a programming language).</p>
         <p>HTML consists of elements that describe different types of content: paragraphs, links, headings, images, video, etc. Web browsers understand HTML and render HTML code as websites.</p>
-        <p>In HTML, each element is made up of 3 parts:</p>
+        <p class="the-three-elements">In HTML, each element is made up of 3 parts:</p>
            <ol>
                 <li>The opening tag</li>
                 <li>The closing tag</li>
@@ -35,5 +42,7 @@
                 <li>To impress friends</li>
                 <li>To have fun&#128515</li>            
             </ul>
+            <button class="send-button">Send message</button>
+            
  </body>    
 </html>
